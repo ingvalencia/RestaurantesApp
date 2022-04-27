@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_gravity="center"
+    android:orientation="vertical"
+    tools:context=".ui.RestaurantesDetalleFragment">
+
+    <ImageView
+        android:id="@+id/img_restaurantedetalle"
+        android:layout_marginTop="8dp"
+        android:layout_width="match_parent"
+        android:layout_height="300dp">
+
+    </ImageView>
+
+    <TextView
+        android:id="@+id/restaurante_nombre"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:textSize="22sp"
+        android:textStyle="bold"
+        android:text="nombre">
+
+    </TextView>
+
+    <TextView
+        android:id="@+id/restaurante_descripcion"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:text="calificacion">
+
+    </TextView>
+
+    <TextView
+        android:id="@+id/restaurante_anio"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:text="anio">
+
+    </TextView>
+
+    <TextView
+        android:id="@+id/restaurante_costo"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:text="costo">
+
+    </TextView>
+
+    <TextView
+        android:id="@+id/restaurante_reseña"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="48dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:text="una reseña">
+
+    </TextView>
+
+
+
+    <!--
+
+<TextView
+        android:id="@+id/restaurante_direccion"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="48dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:text="una direccion">
+
+    </TextView>
+
+
+
+    -->
+
+</LinearLayout>
