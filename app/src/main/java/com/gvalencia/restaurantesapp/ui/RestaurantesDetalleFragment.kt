@@ -40,7 +40,7 @@ class RestaurantesDetalleFragment : Fragment() {
         restaurante_anio.text = Restaurante.anio
         restaurante_costo.text = Restaurante.costo
         restaurante_reseña.text = Restaurante.reseña
-        //restaurante_direccion.text = Restaurante.descripcion
+        restaurante_direccion.text = Restaurante.direccion
 
     }
 

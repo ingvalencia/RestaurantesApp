@@ -20,10 +20,6 @@ class MainActivity : AppCompatActivity() {
 
     }
 
-    /*override fun onNavigateUp(): Boolean {
-        return navController.navigateUp()
-    }*/
-
     override fun onSupportNavigateUp(): Boolean {
         return navController.navigateUp()
     }

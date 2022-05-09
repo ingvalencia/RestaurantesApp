@@ -20,6 +20,8 @@ data class Restaurante(
     val costo:String="",
     @SerializedName("reseña")
     val reseña:String="",
+    @SerializedName("direccion")
+    val direccion:String="",
 
 
 

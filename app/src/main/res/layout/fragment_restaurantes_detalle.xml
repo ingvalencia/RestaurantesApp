@@ -10,10 +10,8 @@
 
     <ImageView
         android:id="@+id/img_restaurantedetalle"
-        android:layout_marginTop="8dp"
         android:layout_width="match_parent"
-        android:layout_height="300dp">
-
+        android:layout_height="250dp">
     </ImageView>
 
     <TextView
@@ -29,11 +27,11 @@
 
     <TextView
         android:id="@+id/restaurante_descripcion"
-        android:layout_marginStart="8dp"
-        android:layout_marginTop="8dp"
+        android:layout_marginStart="6dp"
+        android:layout_marginTop="6dp"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:textSize="18sp"
+        android:textSize="14sp"
         android:textStyle="bold"
         android:text="calificacion">
 
@@ -41,11 +39,11 @@
 
     <TextView
         android:id="@+id/restaurante_anio"
-        android:layout_marginStart="8dp"
-        android:layout_marginTop="8dp"
+        android:layout_marginStart="6dp"
+        android:layout_marginTop="6dp"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:textSize="18sp"
+        android:textSize="14sp"
         android:textStyle="bold"
         android:text="anio">
 
@@ -53,46 +51,62 @@
 
     <TextView
         android:id="@+id/restaurante_costo"
-        android:layout_marginStart="8dp"
-        android:layout_marginTop="8dp"
+        android:layout_marginStart="6dp"
+        android:layout_marginTop="6dp"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:textSize="18sp"
+        android:textSize="14sp"
         android:textStyle="bold"
         android:text="costo">
 
     </TextView>
 
+
     <TextView
-        android:id="@+id/restaurante_reseña"
-        android:layout_marginStart="8dp"
-        android:layout_marginTop="48dp"
+        android:layout_marginStart="6dp"
+        android:layout_marginTop="6dp"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:textSize="18sp"
         android:textStyle="bold"
+        android:text="Descripción:">
+
+    </TextView>
+
+    <TextView
+        android:id="@+id/restaurante_reseña"
+        android:layout_marginStart="6dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="14sp"
         android:text="una reseña">
 
     </TextView>
 
 
-
-    <!--
-
-<TextView
-        android:id="@+id/restaurante_direccion"
-        android:layout_marginStart="8dp"
-        android:layout_marginTop="48dp"
+    <TextView
+        android:layout_marginStart="6dp"
+        android:layout_marginTop="6dp"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:textSize="18sp"
         android:textStyle="bold"
+        android:text="Dirección:">
+
+    </TextView>
+
+    <TextView
+        android:id="@+id/restaurante_direccion"
+        android:layout_marginStart="6dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="14sp"
         android:text="una direccion">
 
     </TextView>
 
 
 
-    -->
+
 
 </LinearLayout>

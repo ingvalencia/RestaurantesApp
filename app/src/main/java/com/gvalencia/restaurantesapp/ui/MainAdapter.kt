@@ -20,8 +20,6 @@ private val itemClickListener:OnRestauranteClickListener): RecyclerView.Adapter<
     }
 
 
-
-
     override fun onCreateViewHolder(parent: ViewGroup, viewType: Int): BaseViewHolder<*> {
         return MainViewHolder(LayoutInflater.from(context).inflate(R.layout.restaurantes_row,parent,false))
     }
