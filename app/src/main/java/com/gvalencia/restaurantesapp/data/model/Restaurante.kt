@@ -22,6 +22,12 @@ data class Restaurante(
     val reseña:String="",
     @SerializedName("direccion")
     val direccion:String="",
+    @SerializedName("imagen_A")
+    val imagen_A:String="",
+    @SerializedName("imagen_B")
+    val imagen_B:String="",
+    @SerializedName("imagen_C")
+    val imagen_C:String="",
 
 
 

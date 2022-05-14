@@ -35,6 +35,9 @@ class RestaurantesDetalleFragment : Fragment() {
     override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
         super.onViewCreated(view, savedInstanceState)
         Glide.with(requireContext()).load(Restaurante.imagen).into(img_restaurantedetalle)
+        Glide.with(requireContext()).load(Restaurante.imagen_A).into(imageViewA)
+        Glide.with(requireContext()).load(Restaurante.imagen_B).into(imageViewB)
+        Glide.with(requireContext()).load(Restaurante.imagen_C).into(imageViewC)
         restaurante_nombre.text = Restaurante.nombre
         restaurante_descripcion.text = Restaurante.descripcion
         restaurante_anio.text = Restaurante.anio
